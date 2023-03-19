@@ -1,0 +1,129 @@
+1)#string functions
+txt='mahesh'
+print(txt.center(20,'$'))
+
+$$$$$$mahesh$$$$$$$
+
+
+2)txt='mahesh'
+index=0
+for i in txt:
+    print("message[",index,"]=",i)
+    index+=1
+
+message[ 0 ]= m
+message[ 1 ]= a
+message[ 2 ]= h
+message[ 3 ]= e
+message[ 4 ]= s
+message[ 5 ]= h
+
+3)# print upper case values?
+txt='(The Nun)'
+print(txt.upper())
+
+(THE NUN)
+
+
+4)# slicing of given value?
+txt='india'
+print(txt)
+print(txt[1:5])
+
+india
+ndia
+
+5)# print empty digits are zeroes
+
+num='8864'
+print(num.zfill(6))
+
+008864
+
+
+6) #sliceing operation
+txt='india'
+print(txt)
+print(txt[:6])
+
+india
+india
+
+7) #sliceing operation
+
+txt='india'
+print(txt)
+print(txt[:])
+
+india
+india
+
+8)#sliceing operation
+txt='india'
+print(txt)
+print(txt[:-4])
+
+india
+i
+
+9)#sliceing operation
+txt='india'
+print(txt)
+print(txt[::-1])
+
+india
+aidni
+
+10)#sliceing operation
+
+txt='india'
+print(txt)
+print(txt[::3])
+
+india
+ii
+
+11)#sliceing operation
+txt='india'
+print(txt)
+print(txt[::2])
+
+india
+ida
+
+12)#use if else 
+txt1='india is great'
+txt2='ind'
+if txt2 in txt1:
+    print("found")
+else:
+        print("not found")
+
+found
+
+13)txt1='india is great'
+for i in txt1: 
+    print(i,end="  ")
+
+i  n  d  i  a     i  s     g  r  e  a  t  
+
+
+14)txt='india is great'
+i=0
+while i<len(txt):
+    letter=txt[i]
+    print(letter,end=" ")
+    i+=1
+
+india is great
+
+15)n=int(input())
+for i in range(1,n+1):
+    ch='A'
+    print()
+for j in range(1, i+1):
+    print(ch,end=" ")
+    ch=chr(ord(ch)+1)
+    
+57
+
